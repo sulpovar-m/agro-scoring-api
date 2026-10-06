@@ -1,0 +1,11 @@
+{
+  "farm_id": "FARM-101",
+  "region": "Rostov",
+  "crop_type": "sunflower",
+  "area_ha": 1200,
+  "temperature_avg": 38,
+  "precipitation_mm": 80,
+  "payment_delay_days": 45,
+  "previous_defaults": 1,
+  "debt": 6500000
+}
