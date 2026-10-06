@@ -83,23 +83,6 @@ X-Process-Time (секунды).
 Некорректное тело при этом все равно получит 422, поскольку Pydantic
 выполняет структурную валидацию раньше обработчика.
 
-## Сборка отчета
-
-В Overleaf загрузите целиком содержимое report/ и выберите XeLaTeX.
-Локально: установите TeX Live или MiKTeX и шрифты DejaVu, затем:
-
-```bash
-cd report
-xelatex -interaction=nonstopmode -halt-on-error main.tex
-xelatex -interaction=nonstopmode -halt-on-error main.tex
-```
-
-Это не pip-зависимости. В main.tex заполните RepositoryURL реальным URL
-проекта после его загрузки и TeacherName, если нужно указать преподавателя.
-Не указывайте ссылку на чужой пример как ссылку на выполненную работу.
-ФИО и группа уже заполнены. Иллюстрации, JSON и таблица тестов входят
-в комплект; report/main.pdf содержит проверенную сборку.
-
 ## Проверено
 
 22 проверки pytest, Ruff check, Ruff format --check.
